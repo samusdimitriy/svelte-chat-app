@@ -44,7 +44,6 @@
 <main>
   <section class="container">
     <div class="logo">
-      <img src="src/lib/images/svelte-logo.svg" alt="ChatGPT Logo">
     </div>
 
     <div class="card-grid">
