@@ -2,11 +2,12 @@ import { sveltekit } from '@sveltejs/kit/vite'
 import { defineConfig } from 'vite'
 import dotenv from 'dotenv'
 
-dotenv.config()  // загружаем переменные окружения из .env
+// Загрузка переменных окружения из .env файла для локальной разработки
+dotenv.config()
 
 export default defineConfig({
   plugins: [sveltekit()],
   define: {
-    'process.env': process.env  // передаём переменные окружения
+    'process.env': process.env  // Передаём переменные окружения в приложение
   }
 })
