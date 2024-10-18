@@ -44,7 +44,7 @@
 <main>
   <section class="container">
     <div class="logo">
-      <img src="src/lib/images/Logo.jpg" alt="ChatGPT Logo">
+      <img src="/Logo.jpg" alt="ChatGPT Logo">
     </div>
 
     <div class="card-grid">
